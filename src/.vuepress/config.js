@@ -10,6 +10,7 @@ module.exports = {
    */
   description: description,
 
+  base: "docs/.vuepress/config.js",
   /**
    * Extra tags to be injected to the page HTML `<head>`
    *
@@ -42,18 +43,18 @@ module.exports = {
         link: '/guide/',
       }
     ],
-    sidebar: {
-      '/guide/': [
-        {
-          title: 'Preperation',
-          collapsable: false,
-          children: [
-            '',
-            'prep',
-          ]
-        }
-      ],
-    }
+    // sidebar: {
+    //   '/guide/': [
+    //     {
+    //       title: 'Preperation',
+    //       collapsable: false,
+    //       children: [
+    //         '',
+    //         'prep',
+    //       ]
+    //     }
+    //   ],
+    // }
   },
 
   /**
