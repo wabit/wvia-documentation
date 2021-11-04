@@ -1,0 +1,21 @@
+{
+  "name": "Why-Vue-is-Awesome",
+  "version": "0.0.1",
+  "description": "The Documentation Saga",
+  "main": "index.js",
+  "authors": {
+    "name": "Josh Bentley",
+    "email": ""
+  },
+  "repository": "/Why Vue is Awesome",
+  "scripts": {
+    "dev": "vuepress dev src",
+    "build": "vuepress build src",
+    "docs:build": "vuepress build docs"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-search": "^1.8.2",
+    "vuepress": "^1.5.3"
+  }
+}
